@@ -29,6 +29,27 @@ html {
 
 body {
   font-family: "Main";
+  background-color: var(--White);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 1110px;
+  height: 582px;
+  margin: 109px 165px;
+  place-content: center center;
+  gap: 30px;
+}
+
+.row-1 {
+  grid-column: span 6;
+}
+
+.row-2 {
+  grid-row-start: 2;
+  grid-column: span 4;
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
