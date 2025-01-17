@@ -40,7 +40,7 @@ body {
   height: 582px;
   margin: 109px 165px;
   place-content: center center;
-  gap: 30px;
+  gap: 75px 30px;
 }
 
 .row-1 {
