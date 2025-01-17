@@ -21,14 +21,14 @@
       "sizes": "1440x800",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Social Proof Sectoin Component"
+      "label": "Social Proof Section Component"
     },
     {
       "src": "https://horoserp.github.io/social-proof/assets/images/mobile-design.jpg",
         "sizes": "375x1530",
         "type": "image/png",
         "form_factor": "narrow",
-        "label": "Social Proof Sectoin Component"
+        "label": "Social Proof Section Component"
       }
     ],
   "theme_color": "#ffffff",
