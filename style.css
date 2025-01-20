@@ -40,6 +40,7 @@ main {
 }
 
 .grid {
+  background-color: lightblue;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -55,6 +56,35 @@ main {
 .row-2 {
   grid-row-start: 2;
   grid-column: span 4;
+}
+
+h1 {
+  font-size: 4.1rem;
+}
+
+.text p {
+  margin-top: 1.5rem;
+  margin-right: 30%;
+}
+
+.star-ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.star-ratings div {
+  background-color: var(--Light-Grayish-Magenta);
+  padding: 1rem;
+}
+
+.star-ratings div:nth-of-type(2) {
+  align-self: center;
+}
+
+.star-ratings div:nth-of-type(3) {
+  align-self: flex-end;
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
