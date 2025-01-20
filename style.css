@@ -30,6 +30,11 @@ html {
 body {
   font-family: "Main";
   background-color: var(--White);
+  background-image: url("./assets/images/bg-pattern-top-desktop.svg"),
+    url("./assets/images/bg-pattern-bottom-desktop.svg");
+  /* background-position: right 51.5vw bottom 35vh, left 49vw top 52vh; */
+  background-position: right 55vw bottom 54.5vh, left 23vw top 16vh;
+  background-repeat: no-repeat, no-repeat;
 }
 
 main {
@@ -40,7 +45,6 @@ main {
 }
 
 .grid {
-  background-color: var(--White);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(2, 1fr);
