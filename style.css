@@ -65,6 +65,7 @@ h1 {
 .text p {
   margin-top: 1.5rem;
   margin-right: 30%;
+  line-height: 1.2;
 }
 
 .star-ratings {
@@ -104,6 +105,20 @@ h1 {
   font-size: 1.2rem;
   font-weight: 700;
   margin-left: 2rem;
+}
+
+.review-card {
+  background-color: var(--Very-Dark-Magenta);
+  padding: 2rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user img {
+  border-radius: 50%;
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
