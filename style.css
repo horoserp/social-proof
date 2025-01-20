@@ -151,11 +151,11 @@ h1 {
 }
 
 article:nth-of-type(4) {
-  margin-top: 1rem;
+  align-self: center;
 }
 
 article:nth-of-type(5) {
-  margin-top: 2rem;
+  align-self: flex-end;
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
