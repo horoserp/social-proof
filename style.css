@@ -32,14 +32,19 @@ body {
   background-color: var(--White);
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 1110px;
-  height: 582px;
-  margin: 109px 165px;
-  place-content: center center;
+  width: 77.08vw;
+  height: 68.75vh;
   gap: 75px 30px;
 }
 
