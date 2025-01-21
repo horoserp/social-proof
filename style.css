@@ -161,6 +161,7 @@ article:nth-of-type(5) {
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
+    row-gap: 15px;
   }
 
   .row-1 {
@@ -200,6 +201,18 @@ article:nth-of-type(5) {
 
   .star-container img:not(:nth-of-type(5)) {
     margin-right: 0.2rem;
+  }
+
+  .title h2 {
+    font-size: 1rem;
+  }
+
+  .title h3 {
+    font-size: 0.95rem;
+  }
+
+  .review-card p {
+    font-size: 14.15px;
   }
 }
 
