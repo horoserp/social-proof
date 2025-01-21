@@ -112,11 +112,6 @@ h1 {
   margin-left: 2rem;
 }
 
-.user-reviews {
-  display: flex;
-  align-items: flex-start;
-}
-
 .review-card {
   background-color: var(--Very-Dark-Magenta);
   border-radius: 5px;
@@ -163,6 +158,19 @@ article:nth-of-type(5) {
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .row-1 {
+    grid-column: span 1;
+  }
+
+  .row-2 {
+    grid-column: span 1;
+    grid-row-start: auto;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
