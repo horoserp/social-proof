@@ -162,6 +162,7 @@ article:nth-of-type(5) {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
     row-gap: 15px;
+    width: 85%;
   }
 
   .row-1 {
@@ -181,7 +182,7 @@ article:nth-of-type(5) {
   .text p {
     margin-right: 0;
     text-align: center;
-    font-size: 15.7px;
+    font-size: 1.15rem;
   }
 
   .rating-container {
@@ -192,7 +193,6 @@ article:nth-of-type(5) {
 
   .rating-container p {
     margin: 0;
-    font-size: 1rem;
   }
 
   .star-container {
@@ -203,16 +203,12 @@ article:nth-of-type(5) {
     margin-right: 0.2rem;
   }
 
-  .title h2 {
-    font-size: 1rem;
+  article:first-of-type {
+    margin-top: -2.5rem;
   }
 
-  .title h3 {
-    font-size: 0.95rem;
-  }
-
-  .review-card p {
-    font-size: 14.15px;
+  article:last-of-type {
+    padding-bottom: 5rem;
   }
 }
 
