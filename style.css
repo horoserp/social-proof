@@ -158,6 +158,12 @@ article:nth-of-type(5) {
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  body {
+    background-image: url("./assets/images/bg-pattern-top-mobile.svg"),
+      url("./assets/images/bg-pattern-bottom-mobile.svg");
+    background-position: right 0vw bottom 68vh, left 0vw top 120vh;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
