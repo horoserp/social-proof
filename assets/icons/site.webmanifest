@@ -17,15 +17,15 @@
   ],
   "screenshots": [
     {
-      "src": "https://horoserp.github.io/social-proof/assets/images/desktop-design.jpg",
+      "src": "https://horoserp.github.io/social-proof/assets/images/desktop-screenshot.jpeg",
       "sizes": "1440x800",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Social Proof Section Component"
     },
     {
-      "src": "https://horoserp.github.io/social-proof/assets/images/mobile-design.jpg",
-        "sizes": "375x1530",
+      "src": "https://horoserp.github.io/social-proof/assets/images/mobile-screenshot.jpeg",
+        "sizes": "600x1362",
         "type": "image/png",
         "form_factor": "narrow",
         "label": "Social Proof Section Component"
