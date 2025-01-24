@@ -224,8 +224,12 @@ article:nth-of-type(5) {
 
 /* Medium devices [iPad Mini] (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    height: 120vh;
+  }
+
   .grid {
-    margin-top: -10rem;
+    margin-top: -5rem;
   }
 
   .star-ratings {
@@ -243,6 +247,15 @@ article:nth-of-type(5) {
   .rating-container p {
     margin: 0;
     text-align: center;
+  }
+
+  article:nth-of-type(4),
+  article:nth-of-type(5) {
+    align-self: flex-start;
+  }
+
+  article:nth-of-type(4) .review-card {
+    padding-bottom: 50px;
   }
 
   .user {
@@ -264,6 +277,19 @@ article:nth-of-type(5) {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .grid {
     margin-top: -5rem;
+  }
+
+  .rating-container {
+    flex-direction: column;
+  }
+
+  .star-container {
+    margin-bottom: 1rem;
+  }
+
+  .rating-container p {
+    margin: 0;
+    text-align: center;
   }
 }
 
