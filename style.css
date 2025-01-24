@@ -157,7 +157,7 @@ article:nth-of-type(5) {
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   body {
     background-image: url("./assets/images/bg-pattern-top-mobile.svg"),
       url("./assets/images/bg-pattern-bottom-mobile.svg");
@@ -224,6 +224,40 @@ article:nth-of-type(5) {
 
 /* Medium devices [iPad Mini] (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .grid {
+    margin-top: -10rem;
+  }
+
+  .star-ratings {
+    justify-content: space-around;
+  }
+
+  .rating-container {
+    flex-direction: column;
+  }
+
+  .star-container {
+    margin-bottom: 1rem;
+  }
+
+  .rating-container p {
+    margin: 0;
+    text-align: center;
+  }
+
+  .user {
+    flex-direction: column;
+  }
+
+  .user img {
+    width: 50%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  body {
+    background-position: right 20vw bottom 68vh, left 0vw top 50vh;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
